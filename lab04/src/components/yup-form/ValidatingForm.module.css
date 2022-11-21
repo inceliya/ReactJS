@@ -1,0 +1,121 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0 8vw;
+}
+.form > * {
+    margin: 0.5rem;
+}
+
+.spaces {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+.spaces > * {
+    margin: 0.5rem 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.row > * {
+    margin-inline: 0.5rem;
+}
+.row > svg {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    min-width: 140px;
+}
+.inputBox > * {
+    display: inline-block;
+}
+.inputBox > input, .inputBox > select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inputBox > label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.checkBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.checkBox > input {
+    margin-right: 0.5rem;
+}
+
+span.totalCount {
+    margin-top: .45rem;
+}
+
+.form input[type="submit"], .form input[type="reset"] {
+    max-width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
+
+.form input[type="submit"] {
+    background-color: #4CAF50;
+}
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.form input[type="reset"] {
+    background-color: #f44336;
+}
+.form input[type="reset"]:hover {
+    background-color: #da190b;
+}
+
+
+button.addSpace {
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
