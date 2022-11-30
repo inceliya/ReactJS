@@ -1,0 +1,25 @@
+.product {
+    display: flex;
+    padding: 3px;
+}
+
+.product > div {
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.discount {
+    font-weight: bold;
+    color: red;
+}
